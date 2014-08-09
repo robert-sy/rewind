@@ -2,16 +2,18 @@
     background-color: #eae1c9;
 }
 .page-header {
-    background-color: #dfcc9e;
+    background-color: #000;
     height: 200px;
     margin-top: 0px;
 }
-#uberschrift {
+#headline {
     padding-top: 80px;
-    padding-left: 575px;
     margin-top: 0px;
+    text-align: center;
+    color: #fff;
+
 }
-#unteruberschrift {
-    padding-top: 80px;
-    padding-left: 575px;
+#subheader {
+    text-align: center;
+    color: #fff;
 }
