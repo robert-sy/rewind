@@ -2,7 +2,7 @@
     background-color: #ffffff;
     height: 200px;
     margin-top: 0px;
-    box-shadow: none;
+    border-bottom: 2px solid black ;
 }
 #headline {
     padding-top: 70px;
@@ -16,5 +16,15 @@
     color: #000;
 }
 .btn-group {
-    margin-left: 710px;
+    margin-left: 545px;
+    margin-top: 0px;
+    position: fixed;
+}
+.btn-default {
+    width: 160px;
+}
+.jumbotron {
+    width: 940px;
+    margin-left: 340px;
+    margin-top: 140px;
 }
