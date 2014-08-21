@@ -1,6 +1,6 @@
-.page-header {
-    height: 150px;
-    margin-top: 0px;
+.header {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
 }
 
 .jumbotron {
@@ -8,14 +8,29 @@
 }
 
 #wrapper {
-    width: 940px;
-    margin-left: 320px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 .nav    {
-    float: right;
-    padding-top: 42px;
+    padding-top: 60px;
 }
 .header {
     padding-top: 50px;
     overflow: hidden;
+}
+
+.container-portfolio .col-md-4 {
+    text-align: center;
+}
+.container-portfolio .col-md-4 img {
+    margin: 10px 0;
+}
+.btn-up {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
 }
