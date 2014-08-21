@@ -34,3 +34,10 @@
     bottom: 50px;
     right: 20px;
 }
+.nav.nav-pills a {
+    color: black;
+}
+.nav.nav-pills a:hover {
+    color: black;
+    background-color: blue;
+}
